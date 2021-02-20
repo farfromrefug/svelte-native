@@ -1,6 +1,6 @@
 {
-  "name": "svelte-native",
-  "version": "0.9.4",
+  "name": "@akylas/svelte-native",
+  "version": "0.9.7",
   "description": "Svelte integration for NativeScript",
   "private": true,
   "repository": {
