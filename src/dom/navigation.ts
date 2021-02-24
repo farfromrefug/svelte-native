@@ -137,3 +137,6 @@ export function closeModal(result: any): void {
     let modalPageInstanceInfo = modalStack.pop();
     modalPageInstanceInfo.element.nativeView.closeModal(result);
 }
+export function isModalOpened() {
+    return modalStack.length > 0;
+}
